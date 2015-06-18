@@ -81,7 +81,6 @@
   },
   "devDependencies": {
     "connect": "^3.3.5",
-    "finalhandler": "^0.4.0",
     "github": "^0.2.3",
     "gulp-concat-filenames": "^0.0.3",
     "gulp-debug": "^2.0.1",
