@@ -1,3 +1,49 @@
 /*******************************
          Site Overrides
 *******************************/
+
+// Footer
+// ===================
+
+footer {
+  padding: 20px;
+  background: #323A43;
+  text-align: center;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+footer li {
+  color: white;
+}
+
+footer li a {
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  color: inherit;
+}
+
+@media (min-width: @mobile) {
+  footer ul li {
+    display: inline-block;
+    margin: 10px;
+  }
+
+  footer ul li + li:before {
+    content: ' \00b7';
+    color: inherit;
+    position: relative;
+    left: -10px;
+  }
+
+  footer ul li a {
+    display: inline;
+    height: initial;
+    line-height: initial;
+  }
+}
